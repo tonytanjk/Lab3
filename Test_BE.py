@@ -1,7 +1,7 @@
-import Lab2.test as test
+import Lab2.BE as test
 import statistics
 
-test_temps = [12,23,25,10,5,15,20]
+test_temps = list[12,23,25,10,5,15,20]
 
 def Test_find_min_max():
    result = test.find_min_max(test_temps)
